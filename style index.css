@@ -1,0 +1,38 @@
+@font-face {
+font-family: 'Charter';
+src: url('fonts/charter.woff2') format('woff2'),
+  url('fonts/charter.woff') format('woff'),
+  url('fonts/charter.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/*header*/
+header {
+font-size: 50px;
+font-weight: bold;
+background-color: #c7b186;
+border: 2px solid #a89058;
+border-radius: 5px;
+padding: 30px 5px;
+text-align: center;
+position: fixed;
+width: 100%;
+top: 0;
+left: 0;
+box-sizing: border-box; 
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #e8e8be;
+  text-align: center;
+  
+  
+  h1, h2, h3, h4, h5, h6{
+    font-size: 20px;
+    font-weight: normal; 
+    background-color: #d6c5a3;
+    padding: 25px;
+    border-radius: 25px;
+  }
+  
